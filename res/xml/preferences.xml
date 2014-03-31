@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/connection">
+        <EditTextPreference
+            android:key="host_address"
+            android:title="@string/host_address"
+            android:inputType="textUri"/>
+        <EditTextPreference
+            android:key="host_port"
+            android:title="@string/host_port"
+            android:inputType="numberDecimal"
+            android:defaultValue="2000"/>
+        <EditTextPreference
+            android:key="password"
+            android:title="@string/password"
+            android:inputType="textPassword"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
